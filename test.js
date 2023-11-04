@@ -34,3 +34,19 @@
 // printReversedStarLadder(steps);
 
 
+// var arr = [3,6,1,5]
+// for(var i =0; i<3; i=i+2){
+//     arr[0]= arr[0]+ arr[i]
+//     // 0 
+//     //3 + 3
+//     //6
+//     // 3 + 6
+
+
+
+// }
+
+// console.log(arr[0])
+
+
+

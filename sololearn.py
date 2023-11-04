@@ -171,16 +171,6 @@
 # print(total_cost)
 
 
-# 2cents = 1 peso
-
-# pesos_price = int(input("Enter the price in Pesos: "))
-# dollars_price = int(input("Enter the price in Dollars: "))
-
-# # peso = 2cents
-# # 1dollar = 100 cents
-
-# # 1 dollar = 50 peso
-
 
 
 # # Convert the Dollars price to Pesos using the exchange rate (2 cents for every Peso)
@@ -211,35 +201,121 @@
 
 
 
+#
 
+# price_in_pesos = int(input("Enter the price of product in peso: "))
+# price_in_dollars = int(input("Enter the price of product in dollars:"))
 
-price_in_pesos = int(input())
-price_in_dollars = int(input())
-
-#convert it
-dollar_to_pesos =  price_in_pesos * 0.02
-
-
-
-
-if dollar_to_pesos <= price_in_dollars :
-    print("Pesos")
-else:
-    print("Dollars")
+# #convert it
+# converted_priceInDollars =  (price_in_pesos * 2 ) /100 
+# print(converted_priceInDollars,"Dollars from pesos")
+# if converted_priceInDollars <= price_in_dollars :
+#     print("Pesos")
+# else:
+#     print("Dollars")
 
 
 
 
+# contacts = [
+#     ("John", 31),
+#     ("Alice", 25),
+#     ("Bob", 28),
+#     ("Eve", 29),
+# ]
+
+# search_name = input("Enter name : ")
+
+# result = None
+
+# for name, age in contacts :
+#     if name == search_name :
+#         result = f"{name} is {age}"
+#         break
+
+
+ 
+# if result is not None:
+#     print(result)
+# else:
+#     print(f"{search_name} not found in the contacts.")
+
+# tuple = (1, (1, 2, 3))
+# print(tuple[1])
+
+
+
+# def calc(x):
+#     #your code goes here
+#     perimter = 4 * x
+#     area = x * x
+#     return perimter,area
+
+    
+
+# side = int(input())
+# p, a = calc(side)
+
+# print("Perimeter: " + str(p))
+# print("Area: " + str(a))
+
+# a, b, c, d, *e, f, g , h = range(20)
+# print(len(e))
 
 
 
 
 
+# nums = {1,4,6,2,5,2,1,7}
+# print(nums)
+# nums.add(9)
+# print(nums)
+# nums.remove(2)
+# print(nums)
 
 
 
+# skills = {'Python', 'HTML', 'SQL', 'C++', 'Java', 'Scala'}
+# job_skills = {'HTML', 'CSS', 'JS', 'C#', 'NodeJS'}
+
+# common_skills = skills.intersection(job_skills)
+
+# print("Common skills between skills and job_skills:")
+# for skill in common_skills:
+#     print(skill)
+
+# You are working on a recruitment platform, which should match the available jobs and the candidates based on their skills.
+
+# The skills required for the job, and the candidate's skills are stored in sets. Complete the program to output the matched skill.
+
+# You can use the intersect operator to get the values present in both sets.
 
 
+# skills = {'Python', 'HTML', 'SQL', 'C++', 'Java', 'Scala'}
+# job_skills = {'HTML', 'CSS', 'JS', 'C#', 'NodeJS'}
+
+
+
+# common = skills.intersection(job_skills)
+
+# print(common)
+
+# a = {1, 2, 3}
+
+# b = {0, 3, 4, 5}
+
+# print(a & b)
+
+
+#list comprehensions
+# word = input()
+
+# vowels = [ 'a','e','i','o','u']
+# res = [letter for letter in word 
+#        if letter not in vowels]
+# print(res)
+
+       
 
 
 
